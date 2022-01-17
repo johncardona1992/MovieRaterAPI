@@ -7,5 +7,5 @@ router = routers.DefaultRouter()
 
 
 urlpatterns = [
-    path('new/', include(routers.urls)),
+    path('new/', include(router.urls)),
 ]
